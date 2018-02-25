@@ -7,7 +7,11 @@
 .page {
   width: 600px;
   margin: 0 auto;
-  border: 1px solid red;
+}
+
+.container {
+  overflow: hidden;
+  background-color: #EAEDF0;
 }
 
 .menu {
@@ -30,6 +34,7 @@
 }
 
 .footer {
+  clear: both;
   height:  200px;
   background-color: #D6E9FE;
 }
